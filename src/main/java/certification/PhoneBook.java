@@ -20,7 +20,7 @@ public class PhoneBook {
             Set<String> phoneNumbers = phoneBook.get(name);
             phoneNumbers.remove(phoneNumber);
             if (phoneNumbers.isEmpty()) {
-                phoneBook.remove(name);
+                phoneBook.remove(name); //some comment
             }
         }
     }
